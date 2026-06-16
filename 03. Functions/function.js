@@ -236,3 +236,21 @@ console.log(loginUser({ id: 2, name: "Alex" }));
 // 5. Default params kick in only when no argument is passed.
 // 6. Rest params (...) collect all arguments into an array.
 // 7. Objects as arguments = how React props work.
+
+// Repeated Challenge 1
+function greetUser(name) {
+  return `hello ${name} hope your day went well`;
+}
+
+console.log(greetUser("Chibuzo"));
+
+function passwordChecker(password) {
+  if (password.length >= 8) {
+    return `Password is Too Strong`;
+  } else {
+    return `Password is Too Short `;
+  }
+}
+
+console.log(passwordChecker("p123hgt~")); // Too strong
+console.log(passwordChecker("p12")); // Too Short
