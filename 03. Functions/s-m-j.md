@@ -1,5 +1,4 @@
 Scope, Methods, JSON & Closures 📓
-Written like a human. Saved for the days your brain forgets.
 
 01
 Scope — who can see what

@@ -4,7 +4,7 @@
 // owner: "Chibuzo"
 // balance: 50000
 // isActive: true
-// Add a method called getDetails that returns a sentence showing all three details. Call it and print the result.
+// Add a "method" called getDetails that returns a sentence showing all three details. Call it and print the result.
 
 const bankAccount = {
   owner: "Chibuzo",
@@ -34,7 +34,7 @@ const appName = "myApp";
 function showApp() {
   let version = "1.0";
   console.log(appName);
-  console.log(version);
+  // console.log(version);
 }
 
 showApp();
@@ -101,7 +101,7 @@ function createGreeter(greetings) {
   return function (name) {
     // inner function takes name
 
-    console.log(`${greetings} ${name}`);
+    console.log(`${greetings}: ${name}`);
   };
 }
 
